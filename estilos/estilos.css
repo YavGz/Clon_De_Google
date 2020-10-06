@@ -71,7 +71,7 @@ main .main_logo{
 }
 .main_input_container{
   margin: 0 auto;
-  padding: 5px 8px 0px 14px;
+  padding: 5px 8px 5px 14px;
   width: 582px;
   height: 37px;
   border: 1px solid #dfe1e5;
@@ -81,6 +81,24 @@ main .main_logo{
   align-items: center;
 }
 .main_input_container:hover{
-  box-shadow: 0px 1px 5px #dfe1e5;
+  box-shadow: 0px 1px 6px 0 #20212447;
   border: 1px solid #fff;
+}
+.search_icon{
+  background-image: url('https://icon-library.com/images/search-icon-vector-free/search-icon-vector-free-17.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 20px;
+  height: 100%;
+}
+
+.micro_icon{
+  background-image: url('https://seeklogo.com/images/G/google-mic-logo-EF440C9A6F-seeklogo.com.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 18px;
+  height: 100%;
+  cursor: pointer;
 }
